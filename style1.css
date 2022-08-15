@@ -299,13 +299,25 @@ nav .links a{
 }
 
 .section6-main-content .section6Link a{
-   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--button_light_primary);
     padding: 16px;
     color: #fff;
     border-radius: 24px;
     text-align: center;
+    width: 200px;
+    margin: auto;
 }
+
+.section6-main-content .section6Link a img{
+    padding: 8px;
+
+
+}
+
 
 
 .section6-main-content .content h1{
@@ -313,12 +325,7 @@ nav .links a{
     font-size:  80px;
     font-weight: bold;
 }
-.section6-main-content .content .section6Link{
-    display: flex;
-    justify-content:center;
-    width: 180px;
-    margin-top: 20px;
-}
+
 
 .section6-main-content p{
     text-align: center;
@@ -327,6 +334,8 @@ nav .links a{
     margin-bottom: 60px;
 
 }
+
+
 
 
 
